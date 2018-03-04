@@ -29,3 +29,8 @@ Note : Log file location is configured in the application.properties file it can
 specify your location if required
 
 PS: any changes to properties file can be done directly in target folder and re run the jar file but if you build the application all change will be reverted.
+
+
+Test Cases:
+
+All code coverage report will be generated in <project location>\target\site\jacoco-it
