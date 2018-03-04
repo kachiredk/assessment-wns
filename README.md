@@ -6,8 +6,11 @@ URL: https://github.com/kachiredk/assessment-wns.git
 
 2) Create the Data Base
 Make sure that your data base details you added to the application.properties file
-location of application.properties file : <your location>\wns-assessment\assessment-wns\assessment\src\main\resources
+
+
+location of application.properties file : <your location>\assessment-wns\assessment\src\main\resources
 currently it has 
+
 spring.datasource.url=jdbc:mysql://localhost:3306/CashMan<YOUR DBNAME>
 spring.datasource.username=root <YOUR DB USER NAME>
 spring.datasource.password=root  <YOUR DB PASSWORD>
@@ -16,7 +19,7 @@ spring.datasource.password=root  <YOUR DB PASSWORD>
 once the build successfully completed jar will be created in the target folder 
 
 4) Go to target folder of application
-<Your Location>\wns-assessment\assessment-wns\assessment\target
+<Your Location>\assessment-wns\assessment\target
 
 5) run the jar file
 java -jar <jar file name>
